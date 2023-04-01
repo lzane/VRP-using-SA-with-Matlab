@@ -6,7 +6,7 @@
 ### Simulation
 让我们来想一个特例，80座城市，分布在四个角上，仓库在正中间，总共有四辆车。那么路程最短的解很明显可以想象出是每辆车分别去访问一个角。matlab工程在文末附件部分给出，仿真结果如下：
 
-![](https://qncdnssl.lzane.com/content/images/2016/04/SA_VRP.gif)
+![](https://www.lzane.com/mo-ni-tui-huo-vehicle-routing-problem-vrp-using-simulated-annealing-sa-with-matlab/SA_VRP.gif)
 
 
 观察下图,可以看出一开始温度较高的时候，容易接受一个比自己差一点的解，从而跳出局部最优解，随着时间推移，温度降下来之后，就基本上不能再接受比自己再差的解了。
